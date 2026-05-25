@@ -1,0 +1,5 @@
+estrategia,threshold,auc_roc,f1_fraude,precision_fraude,recall_fraude,TP,FP,FN,TN,ratio_falsos_positivos
+E1: Base (threshold=0.5),0.5,0.8937,0.8297,0.9263,0.7514,553,44,183,15406,0.0737
+E2: Base (threshold~90% recall),0.01,0.8937,0.2735,0.1638,0.8288,610,3115,126,12335,0.8362
+E3: class_weight='balanced',0.01,0.8936,0.2451,0.1435,0.8397,618,3689,118,11761,0.8565
+E4: feval_3 objetivo-90%,0.03,0.9071,0.3707,0.2381,0.837,616,1971,120,13479,0.7619
