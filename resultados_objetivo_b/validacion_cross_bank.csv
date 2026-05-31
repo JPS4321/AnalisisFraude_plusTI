@@ -1,0 +1,5 @@
+modelo,threshold,auc_roc,precision_fraude,recall_fraude,f1_fraude,ratio_falsos_positivos,TP,FP,FN,TN,alertas_totales
+Bolivia -> Brazil | threshold=0.5,0.5,0.7779,0.8463,0.4106,0.5529,0.1537,1316,239,1889,96556,1555
+Bolivia -> Brazil | threshold~recall 0.9,0.01,0.7779,0.0378,0.9129,0.0726,0.9622,2926,74426,279,22369,77352
+Brazil -> Bolivia | threshold=0.5,0.5,0.7988,0.8489,0.3163,0.4609,0.1511,1556,277,3363,94807,1833
+Brazil -> Bolivia | threshold~recall 0.9,0.001,0.7988,0.0604,0.9262,0.1135,0.9396,4556,70827,363,24257,75383
