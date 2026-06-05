@@ -1,9 +1,9 @@
 tipo_validacion,modelo,threshold,auc_roc,precision_fraude,recall_fraude,f1_fraude,ratio_falsos_positivos,TP,FP,FN,TN,alertas_totales
-temporal_interna,Bolivia temporal | threshold=0.5,0.5,0.8972,0.8492,0.7649,0.8049,0.1508,563,100,173,15350,663
-temporal_interna,Bolivia temporal | threshold~recall 0.9,0.01,0.8972,0.0727,0.9076,0.1347,0.9273,668,8517,68,6933,9185
-temporal_interna,Brazil temporal | threshold=0.5,0.5,0.8605,0.7746,0.7333,0.7534,0.2254,385,112,140,15430,497
-temporal_interna,Brazil temporal | threshold~recall 0.9,0.002,0.8605,0.0422,0.8971,0.0807,0.9578,471,10682,54,4860,11153
-cross_bank,Bolivia -> Brazil | threshold=0.5,0.5,0.7779,0.8463,0.4106,0.5529,0.1537,1316,239,1889,96556,1555
-cross_bank,Bolivia -> Brazil | threshold~recall 0.9,0.01,0.7779,0.0378,0.9129,0.0726,0.9622,2926,74426,279,22369,77352
-cross_bank,Brazil -> Bolivia | threshold=0.5,0.5,0.7988,0.8489,0.3163,0.4609,0.1511,1556,277,3363,94807,1833
-cross_bank,Brazil -> Bolivia | threshold~recall 0.9,0.001,0.7988,0.0604,0.9262,0.1135,0.9396,4556,70827,363,24257,75383
+temporal_interna,Bolivia temporal | threshold=0.5,0.5,0.9,0.8582,0.7649,0.8089,0.1418,563,93,173,15357,656
+temporal_interna,Bolivia temporal | threshold~recall 0.9,0.01,0.9,0.079,0.9076,0.1454,0.921,668,7783,68,7667,8451
+temporal_interna,Brazil temporal | threshold=0.5,0.5,0.8602,0.7694,0.7371,0.7529,0.2306,387,116,138,15426,503
+temporal_interna,Brazil temporal | threshold~recall 0.9,0.002,0.8602,0.0443,0.8971,0.0845,0.9557,471,10152,54,5390,10623
+cross_bank,Bolivia -> Brazil | threshold=0.5,0.5,0.7753,0.8683,0.4218,0.5678,0.1317,1352,205,1853,96590,1557
+cross_bank,Bolivia -> Brazil | threshold~recall 0.9,0.008,0.7753,0.0389,0.8961,0.0746,0.9611,2872,70933,333,25862,73805
+cross_bank,Brazil -> Bolivia | threshold=0.5,0.5,0.8113,0.8945,0.3257,0.4775,0.1055,1602,189,3317,94895,1791
+cross_bank,Brazil -> Bolivia | threshold~recall 0.9,0.001,0.8113,0.0629,0.9116,0.1176,0.9371,4484,66857,435,28227,71341
